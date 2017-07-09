@@ -1,0 +1,32 @@
+
+#import "NSTimer+Foundation.h"
+
+@implementation NSTimer (Foundation)
+
+-(void)pauseTimer
+{
+    if (![self isValid]) {
+        return ;
+    }
+    [self setFireDate:[NSDate distantFuture]];
+}
+
+
+-(void)resumeTimer
+{
+    if (![self isValid]) {
+        return ;
+    }
+    [self setFireDate:[NSDate date]];
+}
+
+- (void)resumeTimerAfterTimeInterval:(NSTimeInterval)interval
+{
+    if (![self isValid]) {
+        return ;
+    }
+    [self setFireDate:[NSDate dateWithTimeIntervalSinceNow:interval]];
+}
+
+
+@end
