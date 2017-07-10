@@ -57,15 +57,15 @@ As of now - May 12, 2017, the main features of SoundNote (speech recognition, ad
 
 Authors
 --------------------
-Tom Li - App overall design, speech recognition API implementation, drafting documentations
-Rina Yu - Infrastructure implementation, UI design, code efficiency improvement
+- Tom Li - App overall design, speech recognition API implementation, drafting documentations
+- Rina Yu - Infrastructure implementation, UI design, code efficiency improvement
 
 
 Questions & Contribution
 --------------------
 If you have questions regarding any aspect of this project or are interested in contributing in any way, please feel free to email us. We'd love to hear from you! Here are our email addresses:
-	- Tom Li: gl1147@nyu.edu
-	- Rina Yu: jy1604@nyu.edu
+- Tom Li: gl1147@nyu.edu
+- Rina Yu: jy1604@nyu.edu
 
 
 Acknowledgments
