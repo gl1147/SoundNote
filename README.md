@@ -17,31 +17,32 @@ Our targeted group of users is those who are fluent in both Chinese and English,
 Getting Started
 --------------------
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-	Requirements:
-	- SoundNote.zip
-	- Xcode 8.3.2
-	- An iPhone/iPad running iOS 10+
-	- An Apple Developer Account
+
+Requirements:
+- SoundNote.zip
+- Xcode 8.3.2
+- An iPhone/iPad running iOS 10+
+- An Apple Developer Account
 
 How to run SoundNote:
-	- On a macOS:
-		1. Unzip SoundNote.zip 
-		2. Open the file named "SoundNote.xcodeproj"
-		3. The project will open in Xcode and it will be automatically installed in an iPhone simulator when you run it. 
+- On a macOS:
+	1. Unzip SoundNote.zip 
+	2. Open the file named "SoundNote.xcodeproj"
+	3. The project will open in Xcode and it will be automatically installed in an iPhone simulator when you run it. 
 
-	- On an iOS device , i.e an iPhone or iPad:
-		1. Unzip SoundNote.zip
-		2. Open the file named "SoundNote.xcodeproj"
-		3. In the upper left corner, select SoundNote -> Generic devices
-		4. Make sure in the signing field of the project, Log in as a developer 
-		5. In the upper bar, Product -> Archive
-		6. Windows -> Organizer, select Archive and export
-		7. After saving the .ipa file, in windows -> devices, add the ipa file to your iOS device (it should have already connected to your computer)
-		6. Run the app on your iOS device
+- On an iOS device , i.e an iPhone or iPad:
+	1. Unzip SoundNote.zip
+	2. Open the file named "SoundNote.xcodeproj"
+	3. In the upper left corner, select SoundNote -> Generic devices
+	4. Make sure in the signing field of the project, log in as a developer 
+	5. In the upper bar, Product -> Archive
+	6. Windows -> Organizer, select Archive and export
+	7. After saving the .ipa file, in windows -> devices, add the ipa file to your iOS device (it should have already connected to your computer)
+	8. Run the app on your iOS device
 
-	***IMPORTANT NOTES
-	- It is highly recommended to run SoundNote on an actual iPhone because the simulator in macOS does not have microphone access so it will not recognize any voice input. 
-	- When creating a new note, it will not be saved it if is not edited. 
+***IMPORTANT NOTES
+- It is highly recommended to run SoundNote on an actual iPhone because the simulator in macOS does not have microphone access so it will not recognize any voice input. 
+- When creating a new note, it will not be saved it if is not edited. 
 	
 
 Third Party Framework
